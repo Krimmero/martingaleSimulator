@@ -18,16 +18,26 @@ namespace MartingaleTheorySimulation
         IRoulette roulette;
 
 
-        Dictionary<Gambler, int> betOnEven = new Dictionary<Gambler, int>();
-        Dictionary<Gambler, int> betOnOdd = new Dictionary<Gambler, int>();
-        
+        Dictionary<IGambler, int> betOnEven = new Dictionary<IGambler, int>();
+        Dictionary<IGambler, int> betOnOdd = new Dictionary<IGambler, int>();
 
-        public void betEven(Gambler gambler, int amount)
+        public Dictionary<IGambler, int> BetOnEven
+        {
+            get { return betOnEven; }
+        }
+
+        public Dictionary<IGambler, int> BetOnOdd
+        {
+            get { return betOnOdd; }
+        }
+
+
+        public void betEven(IGambler gambler, int amount)
         {
             betOnEven.Add(gambler, amount);
         }
 
-        public void betOdd(Gambler gambler, int amount)
+        public void betOdd(IGambler gambler, int amount)
         {
             betOnOdd.Add(gambler, amount);
         }

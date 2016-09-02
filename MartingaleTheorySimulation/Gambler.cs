@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace MartingaleTheorySimulation
 {
-    public class Gambler
+    public interface IGambler
+    {
+        void bet(Croupier croupier, int amount);
+        void receiveCash(int amount);
+    }
+
+    public class Gambler : IGambler
     {
         public Gambler(int amount)
         {

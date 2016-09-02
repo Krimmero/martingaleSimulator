@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MartingaleTheorySimulation.Croupier">
+    <Position X="1" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAAAAAAAEAAAAAQAEAAAABAAAAEAAEAAIAA=</HashCode>
+      <FileName>Croupier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="roulete" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MartingaleTheorySimulation.Roulete">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <Members>
+      <Method Name="Roulete" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Roulete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MartingaleTheorySimulation.Gambler">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Gambler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

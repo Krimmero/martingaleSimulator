@@ -40,7 +40,7 @@ namespace MartingaleTheorySimulation
                     gambler.bet(croupier, amount);
                     croupier.spinRoulette();
                     croupier.equalize();
-                    /*        if (croupier.getRouletteNumber()%2 == 0)
+                            if (croupier.getRouletteNumber()%2 == 0)
                             {
                                 amount = 10;
                                 //Console.WriteLine("player won: " + gambler.Cash);
@@ -49,7 +49,7 @@ namespace MartingaleTheorySimulation
                             {
                                 amount *= 2;
                                 //Console.WriteLine("player lost: " + gambler.Cash);
-                            }*/
+                            }
                 }
                 Program.playerWins++;
                 //Console.Write(".");
